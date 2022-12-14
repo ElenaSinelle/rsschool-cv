@@ -1,9 +1,89 @@
-.header {
-    background-color: lightpink;
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-ExtraLight.ttf");
+    font-weight: 200;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-ExtraLightItalic.ttf");
+    font-weight: 200;
+    font-style: italic;
 }
-.main {
-    background-color: azure;
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
 }
-.footer {
-    background-color: blueviolet;
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Exo2';
+    src: url("assets/fonts/Exo2-SemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+:root {
+    --main-font-weight: 400;
+    --light-font-weight: 200;
+    --bold-font-weight: 600;
+    --main-color: #cdf0f7;
+    --main-text-color: #072e36;
+    --cube-color-one: #f3ef13;
+    --cube-color-two: #f36513;
+    --angle: 150deg;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font: normal var(--main-font-weight) 24px/30px 'Exo2';
+    color: var(--main-text-color);
+    
+}
+.general-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    background-color: var(--main-color);
+    
+    box-shadow: 5px 5px 50px var(--main-text-color);
+}
+.container {
+    padding: 20px 30px;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+    color: var(--main-text-color);
+}
+
+
+/* header styles start */
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nav-item a {
+    text-decoration: none;
 }
