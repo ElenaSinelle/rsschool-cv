@@ -8,8 +8,143 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header"></header>
-<main class="main"></main>
-<footer class="footer"></footer>
+    <div class="general-container">
+
+        <header class="header">
+            
+            <nav class="header-nav">
+                <ul class="container nav-list">
+                    
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary">About me</a></li>
+                    <li class="nav-item"><a href="#skills">IT Skills</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#languages">Languages</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#code">Code Example</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main class="main">
+
+            <div class="main-container">
+
+                <section class="container avatar-photo">
+                    <div class="cube-1"></div>
+                    <div class="avatar-pic"></div>
+                </section>
+
+                <section class="container main-title">
+                    <h1 class="title"><span class="name">Elena</span><span class="surname">Sinelnikova</span></h1>
+                </section>
+
+                <section class="container" id="contacts">
+                    <h2 class="title">Contacts</h2>
+                    <ul>
+                        <li>Phone: +375 29 677 04 84</li>
+                        <li>Email: <a class="email" href="mailto:elle.sinelle@gmail.com" target="_blank" title="email">elle.sinelle@gmail.com</a></li>
+                        <li>GitHub: <a href="https://github.com/elenasinelle" target="_blank" title="github">ElenaSinelle</a></li>
+                        <li>Discord: <a href="https://discord.gg/ElenaSinelle#2491" target="_blank" title="discord">ElenaSinelle</a></li>
+                        <li>Location: Minsk, Belarus</li>
+                    </ul>
+                </section>
+
+                <section class="container" id="summary">
+                    <h2 class="title">About me</h2>
+                    <p>My name is Elena. I have a wide education and working experience in various fields, which I mastered and enjoyed. At present stage of my life I am interested in IT sphere, namely in front-end development. My personal qualities, such as determination, mathematical and creative thinking and constant desire for self-development, always help me to achieve my goal.</p>
+                </section>
+
+                <section class="container" id="projects">
+                    <h2 class="title">Projects</h2>
+                    <ul>
+                        <li><a href="https://elenasinelle.github.io/rsschool-cv/cv" target="_blank">CV in Markdown Syntax</a></li>
+                    </ul>
+                </section>
+
+                <section class="container" id="education">
+                    <div class="cube-2"></div>
+                    <div class="cube-3"></div>
+                    <div class="education-container">
+                        <h2 class="title">Education</h2>
+                        <ul>
+                            <li>BA in Economics, Minsk, Belarus</li>
+                            <li>MA in International Relations, Minsk, Belarus</li>
+                            <li>MA in EU Studies, Sussex, UK</li>
+                            <li>Degree in Fashion Design, Minsk, Belarus</li>
+                            <li>JS / Front-end Course at RS School (in process)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="container" id="languages">
+                    <h2 class="title">Languages</h2>
+                    <ul>
+                        <li>Russian (native)</li>
+                        <li>Belarussian (native)</li>
+                        <li>English (advanced)</li>
+                        <li>Ukrainian (beginner)</li>
+                        <li>German (beginner)</li>
+                        <li>Chinese (beginner)</li>
+                    </ul>
+                </section>
+
+                <section class="container" id="skills">
+                    <h2 class="title">IT Skills</h2>
+                    <div class="progress-container">
+                        <ul class="skills-list">
+                            <li class="skill-content">HTML</li>
+                            <li class="skill-content">CSS</li>
+                            <li class="skill-content">GIT</li>
+                            <li class="skill-content">JS</li>
+                        </ul>
+                        <ul class="progress-list-bar">
+                            <li><div class="progress-skill-bar"><div class="html-progress"></div></div></li>
+                            <li><div class="progress-skill-bar"><div class="css-progress"></div></div></li>
+                            <li><div class="progress-skill-bar"><div class="git-progress"></div></div></li>
+                            <li><div class="progress-skill-bar"><div class="js-progress"></div></div></li>
+                        </ul>
+                        <ul class="progress-list">
+                            <li class="progress-skill-percent">80%</li>
+                            <li class="progress-skill-percent">80%</li>
+                            <li class="progress-skill-percent">60%</li>
+                            <li class="progress-skill-percent">20%</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+                <section class="container" id="code">
+                    <div class="code-container">
+                        <h2 class="title code-title">Code Example</h2>
+                        <pre><code>
+  let gender = prompt ('What gender are you?', ' ');
+
+  let message = (gender == 'male') ? 'Hello, Mr!' :
+  (gender =='female') ? 'Hello, Mrs!' :
+  (gender == 'other') ? 'Hello, Darling!' :
+  'Hello, anyway!';
+
+  alert (message);
+                            </code></pre>
+                </div>
+                </section>
+                
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-container">
+                <div>
+                    &copy; 2022 
+                    <a href="https://github.com/elenasinelle" target="_blank" title="github">ElenaSinelle</a>
+                </div>
+            
+                <div>
+                    <a href="https://rs.school/js-stage0/" target="_blank"><img class="rs-logo" src="assets/img/rsschool-logo.svg" width="112" height="50" alt="rs-school logo"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
