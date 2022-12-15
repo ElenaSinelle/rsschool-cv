@@ -128,6 +128,9 @@ li::before {
     position: relative;
 }
 .avatar-pic {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/img/photo.jpg);
     border: 30px solid var(--cube-color-one);
     border-radius: 5px;
     position: relative;
