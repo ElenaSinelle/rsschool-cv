@@ -96,6 +96,7 @@ li::before {
     width: 10px;
     height: 10px;
 }
+
 /* header styles start */
 .nav-list {
     height: 120px;
@@ -228,7 +229,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
 }
 .progress-skill-bar {
     content: "";
@@ -242,20 +242,28 @@ h1 {
     width: 80%;
     height: 20px;
     background-color: var(--cube-color-two);
+    transition: all 0.5s linear;
 }
 .git-progress {
     content: "";
     width: 60%;
     height: 20px;
     background-color: var(--cube-color-two);
+    transition: all 0.5s linear;
 }
 .js-progress {
     content: "";
     width: 20%;
     height: 20px;
     background-color: var(--cube-color-two);
+    transition: all 0.5s linear;
 }
-
+.html-progress:hover,
+.css-progress:hover,
+.git-progress:hover,
+.js-progress:hover {
+    opacity: 0.5;
+}
 
 .code-container {
     border: 30px solid var(--cube-color-one);
@@ -276,3 +284,18 @@ code {
 pre {
     margin: 0;
 }
+
+/* main styles end */
+/* footer styles start */
+
+.footer-container {
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    font-weight: var(--light-font-weight);
+    font-size: 22px;
+}
+
+/* footer styles end */
