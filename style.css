@@ -48,22 +48,17 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth; 
 }
-
 body {
     font: normal var(--main-font-weight) 24px/30px 'Exo2';
     color: var(--main-text-color);
-    
 }
 .general-container {
     max-width: 1440px;
     margin: 0 auto;
-    
     background-color: var(--main-color);
-    
     box-shadow: 5px 5px 50px var(--main-text-color);
     border-radius: 5px;
 }
@@ -210,13 +205,10 @@ h1 {
     border-color: var(--cube-color-two);
     transform: rotate(0deg);
 }
-
 .progress-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
-
-
 .skills-list li::before,
 .progress-list-bar li::before,
 .progress-list li::before {
@@ -267,8 +259,9 @@ h1 {
 .js-progress:hover {
     opacity: 0.5;
 }
-
 .code-container {
+    position: relative;
+    left: 50%;
     border: 30px solid var(--cube-color-one);
     border-radius: 5px;
     transform: rotate(var(--angle));
@@ -287,7 +280,6 @@ code {
 pre {
     margin: 0;
 }
-
 /* main styles end */
 /* footer styles start */
 
