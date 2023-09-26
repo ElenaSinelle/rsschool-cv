@@ -22,7 +22,8 @@ My name is Elena. I have a wide education and working experience in various fiel
 - MA in International Relations, Minsk, Belarus
 - MA in EU Studies, Sussex, UK
 - Degree in Fashion Design, Minsk, Belarus
-- JS / Front-end Course at RS School (in process)
+- JS / Front-end Course at RS School
+-  Front-end Course at ITGirls
 
 ## IT Skills
 
